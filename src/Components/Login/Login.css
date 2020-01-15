@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+body{
+    background-color: #fafafa;
+}
+
+.Global-Login{
+    background: no-repeat;
+    display: flex;
+    margin-top: 100px;
+    margin-left : 20%;
+    margin-right: 20%;
+}
+.Login-Box{
+    border: 1px solid #e6e6e6;
+    margin : 10% 0 10px;
+    padding: 0 0 50px;
+    border-radius: 1px;
+    flex-grow:1;
+    max-width:350px;
+    max-height:350px ;
+    text-align: center;
+    
+}
+.Logo-Login{
+    display: block;
+    background-position: -176px 0px;
+    background-image: url(../../sprite.png);
+    background-size: 405px 379px;
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 176px;
+    text-indent: -1000%;
+    margin-left: 75px;
+    margin-top: 50px ;
+    
+  }
+.Login-Box>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.Mail-Box{
+    display:flex;
+    height:36px;
+    -webkit-box-flex:1;
+    flex:1 0 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    border:0;
+    background:#fafafa;
+}

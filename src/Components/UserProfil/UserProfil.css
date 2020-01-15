@@ -1,0 +1,9 @@
+.Pic-Container{
+    display: flex;
+    margin: 0 27% 0 27%;
+    max-width: 1300px;
+    flex-wrap:  wrap;
+    border-top: 1px solid #efefef;
+    padding: 50px 0 0 0;
+    
+}

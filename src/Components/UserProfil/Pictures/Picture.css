@@ -1,0 +1,9 @@
+.IMG-Container{
+    padding: 10px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+.img-prop{
+    max-width: 250px;
+    max-height: 250px;
+}

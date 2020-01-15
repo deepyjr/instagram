@@ -1,0 +1,18 @@
+.Comment-Item{
+    display: flex;
+}
+.Comment-Name>p{
+    margin:0;
+}
+.Comment-Content>p{
+    margin:0;
+}
+.Comment-Name{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.Comment-Content{
+
+    margin-top: 10px;
+}
