@@ -14,13 +14,8 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const Login = () => {
-  fetch('http://localhost:3000/api/users')
-  .then(response => response.json())
-  .then(data => {
-    console.table(data) // Prints result from `response.json()` in getRequest
-  })
-  .catch(error => console.error(error))
-  
+
+
     const classes = useStyles();
     return (
         <div className="Global-Login">
@@ -31,11 +26,12 @@ const Login = () => {
             
             <form className={classes.root} noValidate autoComplete="off">
 
-                <TextField className="Insert-Mail" id="outlined-basic" label="Mail" variant="outlined" />
-                <TextField id="outlined-basic" label="Password" variant="outlined" />
+                <TextField className="UserName" id="outlined-basic" label="UserName" variant="outlined" />
+                <TextField id="outlined-basic" label="Password" type="password" variant="outlined" />
+                <h3>Vous n'avez pas de compte ? <strong><a href="/subscribe">S'inscrire</a></strong></h3>
 
                 <Button variant="contained" color="primary">
-                Hello World
+                Se connecter
                  </Button>
             </form>
            

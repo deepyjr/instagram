@@ -34,3 +34,7 @@
 .SVG-Profil{
   margin-right: 30px;
 }
+.Container-Right-Menu{
+  display: flex;
+  flex-direction: row;
+}

@@ -18,7 +18,7 @@ body{
     border-radius: 1px;
     flex-grow:1;
     max-width:350px;
-    max-height:350px ;
+    max-height:390px ;
     text-align: center;
     
 }
@@ -49,4 +49,17 @@ body{
     min-width: 0;
     border:0;
     background:#fafafa;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin-left: 7% !important;
+}
+a{
+    text-decoration:none;
+    color: #3f51b5;
+}
+.boxtext{
+    text-align: center;
+    background-color: red;
 }

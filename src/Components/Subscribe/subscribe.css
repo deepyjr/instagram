@@ -1,0 +1,26 @@
+.Sub-Box{
+    border: 1px solid #e6e6e6;
+    margin : 0 0 10px;
+    padding: 0 0 50px;
+    border-radius: 1px;
+    flex-grow:1;
+    max-width:350px;
+    max-height:750px ;
+    text-align: center;
+}
+.login-pic{
+    max-height: 600px;
+}    
+.root{
+    width: 300,
+}
+.form-item{
+    margin-bottom: 5px;
+}
+.button-form{
+    margin:5% 0 0 20%;
+    display: flex;
+}
+.leftButton{
+    margin-right: 10px;
+}

@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Login from "./Components/Login/Login";
 import UserProfil from "./Components/UserProfil/UserProfil";
+import Subscribe from "./Components/Subscribe/subscribe";
 
 import {
     BrowserRouter as Router,
@@ -14,12 +15,14 @@ import {
   } from "react-router-dom";
 
 
+  
 const EntryApp = () => {
     return (
         <Switch>
             <Route exact path="/login" component={Login} /> 
             <Route exact path="/" component={App} /> 
-            <Route exact path="/UserProfil" component={UserProfil} /> 
+            <Route exact path="/UserProfil/:id" component={UserProfil} /> 
+            <Route exact path="/subscribe" component={Subscribe} /> 
         </Switch>
     )
 }
